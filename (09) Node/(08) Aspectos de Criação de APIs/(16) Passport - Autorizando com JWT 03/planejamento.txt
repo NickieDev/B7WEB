@@ -1,0 +1,28 @@
+API de LISTA DE CONTATOS:
+
+- Criar um novo contato
+- Listar os contatos
+- Excluir o contato
+
+Planejamento de rotas:
+
+- POST /contato { name: "João" }
+- GET /contatos
+- DELETE /contato?name=João
+
+MVC => Model, Viel, Controller
+
+-> Requisição POST
+--> Contorller recebeu a Requisição
+--> Validar os dados
+--> Manda os dados validados para o Model
+--> Controller pega a resposta do model e prepara a resposta da requisição
+
+
+JWT = JsonWebToken
+
+-> Autenticação
+   Payload = Carga = Fera um HASH com o nosso HASH Privado
+
+-> Autenticação
+   Decifra o hash (utilizando o hash privado)
